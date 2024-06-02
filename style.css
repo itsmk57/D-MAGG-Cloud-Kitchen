@@ -1,0 +1,12 @@
+#nav-item-id {
+    background-color: pink;
+    text-decoration: none;
+}
+
+#nav-item-id:hover {
+    background-color: wheat;
+}
+
+.nav-link {
+    color: aqua;
+}
