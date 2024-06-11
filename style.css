@@ -36,7 +36,7 @@ p {
 }
 
 .section-p1 {
-    margin: 40px 80px;
+    margin: 80px 80px;
 }
 
 .section-m1 {
@@ -59,6 +59,11 @@ body {
     position: sticky;
     top: 0;
     left: 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
 }
 
 #navbar {
@@ -100,7 +105,7 @@ body {
 
 /* Home Page */
 #hero {
-    background-image: url("img/hero4.png");
+    background-image: url("img/hero4.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -112,8 +117,13 @@ body {
     justify-content: center;
 }
 
-#hero h4 {
+#hero h4, p{
+    color: white;
     padding-bottom: 10px;
+}
+
+#hero h2 {
+    color: #088178;
 }
 
 #hero h1 {
@@ -123,7 +133,7 @@ body {
 #hero button {
     border: none;
     color: white;
-    background-color: rgb(225, 149, 82);
+    background-color: rgb(87, 173, 120);
     padding: 14px 30px 14px 25px;
     border-radius: 10px;
     background-repeat: no-repeat;
@@ -171,6 +181,79 @@ body {
 /* Menu */
 
 #product1 {
+    text-align: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    transition: box-shadow 0.3s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    padding: 10px 0;
+    text-align: left;
+}
+
+#product1 .pro .des span {
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 8px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+}
+
+
+/* #product1 {
     text-align: center;
 }
 
@@ -241,4 +324,124 @@ body {
     position: absolute;
     bottom: 13px;
     right: 15px;
+} */
+
+/* FeedBack Section */
+#feedback {
+    position: relative;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* fallback for old browsers */
+    background: url('img/momo.jpg') no-repeat center center/cover;
 }
+
+#feedback h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#feedback p {
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.feedback-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#feedback form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#feedback label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+    color: #fff;
+}
+
+#feedback input,
+#feedback textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#feedback input {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+#feedback textarea {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+#feedback button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#feedback button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Footer Section */
+.footer {
+    padding: 50px 0;
+    text-align: center;
+    color: #050404;
+}
+
+.footer p {
+    color: black;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 100px; /* Adjust the width as needed */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 24px;
+}
+
+.social-media a:last-child {
+    margin-right: 0;
+}
+
