@@ -426,66 +426,6 @@ body {
     background-color: #ff4500;
 }
 
-
-/* FeedBack Section */
-#feedback {
-    background: url('img/f3.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 60px 0;
-    position: relative;
-    color: #fff; /* Optional: Set text color to white for better readability */
-}
-
-.section-p1 h2, p{
-    text-align: center;
-    color: whitesmoke;
-    text-shadow: black;
-}
-
-.feedback-container {
-    position: relative;
-    z-index: 2;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background: rgba(10, 10, 10, 0.884); /* Light background with some opacity */
-    border-radius: 10px;
-}
-
-.feedback-container form {
-    display: flex;
-    flex-direction: column;
-}
-
-.feedback-container label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.feedback-container input,
-.feedback-container textarea {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.feedback-container button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.feedback-container button:hover {
-    background-color: #555;
-}
-
-
-
 /* Footer */
 .footer {
     background-color: #f8f8f8;
